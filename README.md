@@ -1,21 +1,18 @@
-# 🏡 WanderLust — Homestay Booking Platform
+# WanderLust — Homestay Booking Platform
 
-WanderLust is a full-stack web application inspired by Airbnb that allows users to explore homestay listings and manage property information. The project is being developed to gain practical experience in full-stack web development, RESTful APIs, and database integration.
+WanderLust is a full-stack web application inspired by Airbnb. It allows users to explore homestay listings and manage property information. This project is currently under development.
 
-## 🚀 Features
+## Features
 
-- View available property listings.
-- Create new property listings.
-- Edit existing listing details.
-- View individual listing information.
-- Delete listings.
-- Server-side rendering using EJS templates.
-- Responsive user interface.
-- Backend routing and error handling.
+- View property listings
+- Create new listings
+- Edit existing listings
+- View individual listing details
+- Delete listings
+- Server-side rendering with EJS
+- Backend routing and error handling
 
-*Note: The project is currently under development. Features may be added or improved over time.*
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** Node.js, Express.js
@@ -23,7 +20,7 @@ WanderLust is a full-stack web application inspired by Airbnb that allows users 
 - **Templating Engine:** EJS
 - **Version Control:** Git and GitHub
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 WanderLust/
@@ -47,88 +44,75 @@ WanderLust/
 ├── app.js
 ├── package.json
 ├── package-lock.json
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
-
-Make sure you have the following installed:
 
 - Node.js
 - npm
 - MongoDB
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/gayatri-Patil14/WanderLust.git
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
-
-### 2. Navigate to the project directory
+### 2. Navigate to the Project
 
 ```bash
 cd WanderLust
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Configure environment variables
+### 4. Configure Environment Variables
 
-Create a `.env` file in the root directory and add your MongoDB connection string:
+Create a `.env` file and add your MongoDB connection string using the environment variable expected by your application.
 
-```env
-ATLASDB_URL=your_mongodb_connection_string
-```
+Never upload database credentials or secrets to GitHub.
 
-Use the variable name expected by your application. Never commit database credentials or other secrets to GitHub.
-
-### 5. Start the application
-
-Run the command configured for your project:
+### 5. Run the Application
 
 ```bash
 node app.js
 ```
 
-Open the local URL configured in your application in your browser, for example:
+Open the local URL configured in your application.
 
-```text
-http://localhost:8080
-```
+## Learning Outcomes
 
-## 🎯 Learning Outcomes
+- RESTful API development
+- CRUD operations
+- MongoDB integration
+- Backend development using Express.js
+- Error handling and validation
+- Git and GitHub version control
 
-Through WanderLust, I am developing practical skills in:
+## Future Enhancements
 
-- Building RESTful APIs using Express.js.
-- Implementing CRUD operations.
-- Integrating MongoDB with a Node.js application.
-- Organizing routes, models, and views.
-- Handling errors and validating data.
-- Using Git and GitHub for version control.
+- User authentication
+- Search and filtering
+- Booking management
+- Reviews and ratings
+- UI improvements
 
-## 🔮 Future Enhancements
-
-- User authentication and authorization.
-- Search and filtering functionality.
-- Booking and reservation management.
-- Reviews and ratings.
-- Improved UI and user experience.
-
-## 👩‍💻 Author
+## Author
 
 **Gayatri**
 
 Information Science and Engineering Student
 
-GitHub: https://github.com/gayatri-Patil14
+[GitHub Profile](https://github.com/gayatri-Patil14)
 
-*WanderLust is an ongoing personal project developed for learning and practical application of full-stack web development concepts.*
+---
+
+*WanderLust is an ongoing personal project focused on full-stack web development.*
